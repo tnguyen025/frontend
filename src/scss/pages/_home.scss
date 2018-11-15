@@ -1,0 +1,34 @@
+.home {
+  width: 100%;
+  height: 100%;
+
+  &__sort {
+    font-size: 2rem;
+  }
+
+  &__upload {
+    $offset: 6rem;
+    position: absolute;
+    right: $offset;
+    bottom: $offset;
+    font-size: 5rem;
+    width: 5rem;
+    height: 5rem;
+  }
+
+  &__upload__font {
+    font-size: 1.5rem;
+  }
+
+  .box {
+    background: grey;
+    color: white;
+
+    &__add {
+      font-size: 2rem;
+      padding: 2rem;
+    }
+  }
+
+
+}
